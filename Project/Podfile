@@ -1,0 +1,7 @@
+pod "hydna", :path => "../hydna.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
