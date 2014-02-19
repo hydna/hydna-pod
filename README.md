@@ -93,7 +93,7 @@ osx: 10.7 +
 hydna is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-    pod "hydna"
+    pod "Hydna"
 
 ## Author
 
