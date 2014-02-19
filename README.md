@@ -1,12 +1,10 @@
 # hydna
 
-This the official Objective-C bindings for hydna https://www.hydna.com for full documentation or our API please go to https://www.hydna.com/documentation
+This the official Objective-C bindings for hydna (in a pod) https://www.hydna.com for full documentation of our API please go to https://www.hydna.com/documentation
 
 Get a free hydna domain at https://www.hydna.com/account/create/
 
-
 ## Usage
-
 
 Import:
 
