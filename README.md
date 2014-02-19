@@ -48,7 +48,7 @@ Receiving data:
         NSData *payload = [data content];
 
         if ([data isUtf8Content]) {
-            NSString *message = [[ NSString alloc ] initWithData:payload encoding:NSUTF8StringEncoding];
+            NSString *message = [[NSString alloc] initWithData:payload encoding:NSUTF8StringEncoding];
             NSLog(@"%@", message);
             
         } else {
@@ -63,7 +63,7 @@ Receiving signal:
         NSData *payload = [data content];
 
         if ([data isUtf8Content]) {
-            NSString *message = [[ NSString alloc ] initWithData:payload encoding:NSUTF8StringEncoding];
+            NSString *message = [[NSString alloc] initWithData:payload encoding:NSUTF8StringEncoding];
             NSLog(@"%@", message);
             
         } else {
