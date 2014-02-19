@@ -7,31 +7,25 @@
 Pod::Spec.new do |s|
   s.name             = "hydna"
   s.version          = "0.1.0"
-  s.summary          = "A short description of hydna."
-  s.description      = <<-DESC
-                       An optional longer description of hydna
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "hydna library"
+  s.description      = "Library to connect with hydna"
+  s.homepage         = "http://hydna.com/"
   s.license          = 'MIT'
   s.author           = { "skaggivara" => "isak.wistrom@gmail.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/NAME'
+  s.source           = { :git => "https://github.com/hydna/hydna-pod", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/hydna'
 
   # s.platform     = :ios, '5.0'
   # s.ios.deployment_target = '5.0'
   # s.osx.deployment_target = '10.7'
-  s.requires_arc = true
+  s.requires_arc = false
 
   s.source_files = 'Classes'
   s.resources = 'Assets'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
+  # s.ios.exclude_files = 'Classes/osx'
+  # s.osx.exclude_files = 'Classes/ios'
+  s.public_header_files = 'Classes/*.h'
+  s.frameworks = 'CFNetwork'
   # s.dependency 'JSONKit', '~> 1.4'
 end
