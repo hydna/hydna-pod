@@ -85,8 +85,8 @@ Handling close:
 
 # Requirements
 
-ios 5 +
-osx 10.7 +
+ios: 5 +
+osx: 10.7 +
 
 ## Installation
 
