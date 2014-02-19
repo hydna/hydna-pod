@@ -5,11 +5,15 @@
 
 ## Usage
 
-This the official Objective-C bindings for hydna http://www.hydna.com for full documentation or our API please go to http://www.hydna.com/documentation.
+This the official Objective-C bindings for hydna http://www.hydna.com for full documentation or our API please go to http://www.hydna.com/documentation
 
 Get a free hydna domain at http://www.hydna.com/signup
 
-Implement the following optional <HYChannelDelegate> methods:
+Import:
+
+    #import "HYChannel.h"
+
+Implement the following optional **<HYChannelDelegate>** methods:
 
     - (void)channelOpen:(HYChannel *)sender message:(NSString *)message;
 
@@ -37,7 +41,6 @@ Sending some data:
 Sending a signal:
 
     [channel emotString:@"Hello Signal"];
-
 
 Receiving data:
     
@@ -73,7 +76,6 @@ Handling close:
 
     - (void)channelClose:(HYChannel *)sender error:(HYChannelError *)error
     {
-        
         if (error.wasDenied) {
             NSLog(@"Connection to hydna was denied: %@", error.reason);
         } else if (error.wasClean) {
@@ -101,4 +103,3 @@ Isak Wiström, iw@hydna.com
 ## License
 
 hydna is available under the MIT license. See the LICENSE file for more info.
-
