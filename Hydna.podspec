@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Hydna"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "hydna library"
   s.description      = "Library to connect with hydna"
   s.homepage         = "http://www.hydna.com/"
