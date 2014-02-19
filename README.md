@@ -1,13 +1,12 @@
 # hydna
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/hydna/badge.png)](http://cocoadocs.org/docsets/hydna)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/hydna/badge.png)](http://cocoadocs.org/docsets/hydna)
+This the official Objective-C bindings for hydna https://www.hydna.com for full documentation or our API please go to https://www.hydna.com/documentation
+
+Get a free hydna domain at https://www.hydna.com/account/create/
+
 
 ## Usage
 
-This the official Objective-C bindings for hydna http://www.hydna.com for full documentation or our API please go to http://www.hydna.com/documentation
-
-Get a free hydna domain at http://www.hydna.com/signup
 
 Import:
 
