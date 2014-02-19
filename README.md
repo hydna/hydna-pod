@@ -1,4 +1,4 @@
-# hydna
+# Hydna
 
 This the official Objective-C bindings for hydna (in a pod) https://www.hydna.com for full documentation of our API please go to https://www.hydna.com/documentation
 
