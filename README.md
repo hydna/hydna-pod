@@ -37,7 +37,7 @@ Sending some data:
 
 Sending a signal:
 
-    [channel emotString:@"Hello Signal"];
+    [channel emitString:@"Hello Signal"];
 
 Receiving data:
     
