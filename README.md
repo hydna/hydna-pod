@@ -44,7 +44,6 @@ Receiving data:
     - (void)channelMessage:(HYChannel *)sender data:(HYChannelData *)data
     {
         NSData *payload = [data content];
-
         if ([data isUtf8Content]) {
             NSString *message = [[NSString alloc] initWithData:payload encoding:NSUTF8StringEncoding];
             NSLog(@"%@", message);
@@ -58,7 +57,6 @@ Receiving signal:
     - (void)channelSignal:(HYChannel *)sender data:(HYChannelSignal *)data
     {
         NSData *payload = [data content];
-
         if ([data isUtf8Content]) {
             NSString *message = [[NSString alloc] initWithData:payload encoding:NSUTF8StringEncoding];
             NSLog(@"%@", message);
