@@ -18,14 +18,15 @@ Implement the following optional **<HYChannelDelegate>** methods:
 
     - (void)channelMessage:(HYChannel *)sender data:(HYChannelData *)data;
 
-    - (void)channelSignal:(HYChannel *)sender data:(HYChannelSignal)data;
+    - (void)channelSignal:(HYChannel *)sender data:(HYChannelSignal *)data;
 
 Opening a channel:
 
-    HYChannel * channel = [[HYChannel alloc] init];
+    HYChannel *channel = [[HYChannel alloc] init];
     [channel setDelegate:self];
-    @try {
-        [self.channel connect:@"yourdomain.hydna.net" mode:READWRITEEMIT token:@"optionaltoken"];
+    @try
+    {
+        [channel connect:@"yourdomain.hydna.net" mode:READWRITEEMIT token:@"optionaltoken"];
     }
     @catch (NSException *exception) {
         NSLog(@"Error: %@", exception.reason);
